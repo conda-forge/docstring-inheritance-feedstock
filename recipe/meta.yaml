@@ -1,5 +1,5 @@
 {% set name = "docstring-inheritance" %}
-{% set version = "1.0.1" %}
+{% set version = "1.1.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/docstring-inheritance-{{ version }}.tar.gz
-  sha256: 639a3c5975ec0e71ab8b0a8912c32fa9cc0552d1eca49c47da35c9178e0a889b
+  sha256: 8f0df487d25247406f295462aad3e7df1441616158cda173461fea0079790502
 
 build:
   number: 0
