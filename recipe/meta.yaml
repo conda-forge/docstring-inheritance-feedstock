@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/docstring-inheritance-{{ version }}.tar.gz
-  sha256: 154cd62c5e36509b0f60612b11166ece03174ee9c570f5e736aba5aecd10f2b6
+  sha256: ac9af95a7b06a305d43720274d0e62523d23f835bf94ce2bb814687e6fe3957b
 
 build:
   number: 0
