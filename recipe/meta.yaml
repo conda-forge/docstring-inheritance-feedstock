@@ -1,5 +1,5 @@
 {% set name = "docstring-inheritance" %}
-{% set version = "2.2.1" %}
+{% set version = "2.2.2" %}
 
 
 package:
@@ -19,8 +19,9 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
+    - setuptools
   run:
-    - python >={{ python_min }},<3.13
+    - python >={{ python_min }},<3.14
 
 test:
   imports:
