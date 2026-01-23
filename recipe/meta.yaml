@@ -11,7 +11,7 @@ source:
   sha256: 3ee19b35549279a7a03e184d66e4d5b25e859ae67785e2e5373e224e1f874934
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script_env:
     - SETUPTOOLS_SCM_PRETEND_VERSION={{version}}
