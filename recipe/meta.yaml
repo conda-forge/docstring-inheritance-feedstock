@@ -11,10 +11,10 @@ source:
   sha256: 3ee19b35549279a7a03e184d66e4d5b25e859ae67785e2e5373e224e1f874934
 
 build:
-  number: 1
+  number: 2
   noarch: python
-  script_env:
-    - SETUPTOOLS_SCM_PRETEND_VERSION={{version}}
+#  script_env:
+#    - SETUPTOOLS_SCM_PRETEND_VERSION={{version}}
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -22,6 +22,7 @@ requirements:
     - pip
     - python {{ python_min }}
     - setuptools
+    - setuptools_scm
   run:
     - python >={{ python_min }}
     - typing-extensions >=4,<5
